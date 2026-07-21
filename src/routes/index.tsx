@@ -336,7 +336,10 @@ function Index() {
           </div>
           <div className="mt-10 pt-6 border-t border-ink/5 flex flex-col md:flex-row justify-between gap-2">
             <span className="text-[11px] uppercase tracking-widest text-ink/30">© 2026 Ananas Editorial</span>
-            <span className="text-[11px] uppercase tracking-widest text-ink/30">Designed for Enthusiasts</span>
+            <div className="md:text-right">
+              <div className="text-sm font-medium text-leaf">Omar Mohamed</div>
+              <a href="mailto:Omariko7687@gmail.com" className="text-xs text-ink/50 hover:text-fruit transition-colors">Omariko7687@gmail.com</a>
+            </div>
           </div>
         </div>
       </footer>
